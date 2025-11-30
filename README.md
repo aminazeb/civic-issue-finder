@@ -29,11 +29,12 @@ A modern take on Code for America's original Civic Issue Finder. This tool helps
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/civic-issue-finder.git
+git clone https://github.com/codeforpakistan/civic-issue-finder.git
 cd civic-issue-finder
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -60,7 +61,11 @@ npm run dev
 To embed the issue finder on your website, use the provided embed code. You can customize the height and theme (light or dark) using the URL parameters.
 
 ```html
-<iframe src="https://civicissuefinder.codeforpakistan.org/embed" width="100%" height="500px"></iframe>
+<iframe
+  src="https://civicissuefinder.codeforpakistan.org/embed"
+  width="100%"
+  height="500px"
+></iframe>
 ```
 
 ### API
@@ -84,7 +89,6 @@ Query parameters
 2. Follow our [contribution guidelines](CONTRIBUTING.md)
 3. Submit pull requests for improvements
 
-
 ## Built With
 
 - [Next.js 14](https://nextjs.org/)
@@ -92,7 +96,6 @@ Query parameters
 - [shadcn/ui](https://ui.shadcn.com/)
 - [GitHub GraphQL API](https://docs.github.com/en/graphql)
 - [Airtable](https://airtable.com/)
-
 
 ## License
 
